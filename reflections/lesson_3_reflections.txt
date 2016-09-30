@@ -7,25 +7,37 @@ repository that is accessible to everyone.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
+Remote repositories are often public. Other people can push changes to it. 
+Automatic pulling is not ideal because people may work on different features.
+Automatic pulling can ruin whatever that has been done locally but not pushed.
 
-    Fill in your answer here
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+Forks are used when you want to work on someone else's repository but don't 
+have the permission. You clone it and start working on it. When forks are 
+used, the author of the original repository gets recognised.
+Clones are used when people clone repositories, start working on them, and 
+then push them to their own GitHub without mentioning where the code originally 
+came from.
+Branches are dealing wiwth commits. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+This makes collaboration easier. Multiple people can work on the same commit. 
+If a copy of the last known state of the remote is not stored locally, it will 
+be harder when people try to merge their work with others'.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+Without Git or GitHub, communicating with collaborators is easy. It can be 
+done through emails etc. Sharing files is easy as well. However, showing the 
+changes made by one another will be difficult, especially when there are lots 
+of changes. When there are multiple people working together, things will become 
+more complicated.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+One senario will be when people collaborate on a fork. In order to make sure 
+everyone stays up-to-date with changes others are making, it will be easier if 
+everyone works on a new branch. 
